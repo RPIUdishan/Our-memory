@@ -68,8 +68,3 @@ function addTodo(camera_url) {
     $("#todo-list").listview('refresh');
 };
 
-function loadData(){
-    $.mobile.changePage($("#list-page"));
-    $("#todo-list").listview('refresh');
-    console.log("load Data func is running!");
-};

@@ -66,8 +66,10 @@
     </div>
     <div data-role="page" id="view-page">
         <body onload="loadData()">
-            <h1>view our Memory</h1>
-            <a href="#add-page" data-icon="add" class="ui-btn-left">Add</a>
+            <div data-role="header" data-position="fixed">
+                <h1>Our Memories</h1>
+                <a href="#add-page" data-icon="add" class="ui-btn-left">Add</a>
+            </div>
             <div data-role="content">
                 <ul data-role="listview" data-inset="true" id="todo-list"></ul>
             </div>

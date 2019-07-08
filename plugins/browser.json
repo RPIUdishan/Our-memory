@@ -12,6 +12,9 @@
     },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "org.apache.cordova.myApp"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "org.apache.cordova.myApp"
     }
   },
   "dependent_plugins": {}
